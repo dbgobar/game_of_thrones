@@ -1,0 +1,6 @@
+<h2><%= link_to "Characters", characters_path %></h2>
+<h3><%= @character.name %></h3>
+
+<img src = "<%= @character.photo_url%>">
+
+<p><%= link_to "Edit House", edit_character_path(@character)%></p>
